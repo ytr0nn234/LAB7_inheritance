@@ -3,7 +3,7 @@ public class PreferredCustomer extends Customer {
     private double discountLevel;
 
     public PreferredCustomer() {
-        super(); // Вызов конструктора Customer() -> Person()
+        super(); //constructor call
         this.loyaltyPoints = 0;
         this.discountLevel = 0.0;
     }
